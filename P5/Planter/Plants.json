@@ -1,0 +1,7 @@
+{
+    "plants":[
+      {"name":"Uggerzplante", "model":"plantA", "texture":"textureA"},
+      {"name":"Dangel", "model":"plantB", "texture":"textureB"},
+      {"name":"Gugger8A", "model":"plantC", "texture":"textureC"}
+    ]
+    }

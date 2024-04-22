@@ -1,6 +1,8 @@
-let plantA;
-let textureA;
-var displayNum;
+var plantNo;
+
+var plantA;
+var textureA;
+
 
 function preload() {
   plantA = loadModel('PlantA.obj', true);
@@ -29,7 +31,7 @@ function draw() {
   }else if(displayNum == 2){
     rotateY(frameCount * -0.01);
   }else if(displayNum == 3){
-    rotateY(frameCount * 0.01);
+    rotateY(frameCount * 0.00);
   }
 
   //plant rendering
