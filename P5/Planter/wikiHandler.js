@@ -15,9 +15,9 @@ function showPosition(position) {
 }
 
 var plants = '{"plants":[' +
-'{"plantName":"Ugga plante69"},' +
-'{"plantName":"Bugga plante42"},' +
-'{"plantName":"bruh"}]}';
+'{"plantName":"Christian"},' +
+'{"plantName":"Geoff"},' +
+'{"plantName":"Walter"}]}';
 
 var obj = JSON.parse(plants);
 
