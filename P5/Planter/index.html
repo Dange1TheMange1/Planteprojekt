@@ -1,33 +1,94 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
   <head>
-    <title>PlantWiki</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
+    <title>Guess That Location</title>
+    <meta name="description" content="This page consist of an omnipresent plant, 
+    that always will know where your location are!">
+    
+    <style> 
+    * {
+      box-sizing: border-box
+    }
+    nav {
+      list-style-type: none;
+      position: -webkit-sticky; /* Firefox */
+      position: sticky;
+      top: 0;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: lightgreen;
+    }
+    .menu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    li {
+  float: left;
+  border-right:1px solid #bbb;
+}
 
-  </head>
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+    header
+    {
+     background-color: darkkhaki;
+     padding: 20px;
+    }
+    body {
+      background-color: khaki;
+    }
+
+
+    </style>
+  
+</head>
+
   <body>
-    <audio controls autoplay>
-      <source src="macarena.mp3" type="audio/mpeg">
-    No support for macarena :(
-    </audio>
-    <p>Press this button and I will guess your location</p>
-    <button onclick="getLocation()">This button</button>
-
-    <p id="location"></p>
+    <nav>
+     <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="aboutpage.html">About</a></li>
+     </ul>
+    </nav>
+   
+   
+    <header>
+      <h1>
+        Guess that location
+      </h1>
+      <h2>The plants knows where you are!</h2>
+    </header>
+   
+    <main>
+    
+    </main>
 
     
-    <p id="plantNameViewer"></p>
+    <div>
+      <script src="sketch.js"></script>
+      <button> Toggle "fullscreen"</button>
+    </div>
+    
 
-    <script src="plant.js"></script>
-
-    <button onclick="displayA()">Christians Plante</button>
-    <button onclick="displayB()">Plant B</button>
-    <button onclick="displayC()">Plant C</button>
-
-    <script src="wikiHandler.js"></script>
-
+ 
+<script src="Fullscreen.js"></script>
   </body>
+
 </html>

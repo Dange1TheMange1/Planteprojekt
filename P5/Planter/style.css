@@ -1,9 +1,15 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #40523e;
-  color: #f9f9f9;
 }
 canvas {
   display: block;
+  
+}
+
+h1 {
+ color: darkgreen;
+}
+h2{
+  font-style: italic;
 }
