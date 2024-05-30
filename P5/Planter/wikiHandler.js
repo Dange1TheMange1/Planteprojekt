@@ -21,12 +21,12 @@ var plants = '{"plants":[' +
 
 var obj = JSON.parse(plants);
 
-
 function updatenavn(){
 document.getElementById("plantNameViewer").innerHTML =
 "Currently viewing " + obj.plants[displayNum-1].plantName;
 }
-//den her kode er lort
+
+//this code is mad sketchy
 function displayA() {
     displayNum = 1;
     plantNo = 0;
