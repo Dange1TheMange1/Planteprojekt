@@ -26,22 +26,8 @@ document.getElementById("plantNameViewer").innerHTML =
 "Currently viewing " + obj.plants[displayNum-1].plantName;
 }
 
-//this code is mad sketchy
-function displayA() {
-    displayNum = 1;
-    plantNo = 0;
+function display(num, plant) {
+    displayNum = num;
+    plantNo = plant;
     updatenavn()
 }
-
-function displayB() {
-    displayNum = 2;
-    plantNo = 1;
-    updatenavn()
-}
-
-function displayC() {
-    displayNum = 3;
-    plantNo = 2;
-    updatenavn()
-}
-

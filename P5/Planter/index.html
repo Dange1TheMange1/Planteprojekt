@@ -75,7 +75,25 @@ li a {
       </h1>
       <h2>The plants knows where you are!</h2>
     </header>
-   
+    <audio controls autoplay>
+      <source src="macarena.mp3" type="audio/mpeg">
+    No support for macarena, sad
+    </audio>
+    <p>Press this button and I will guess your location</p>
+    <button onclick="getLocation()">This button</button>
+
+    <p id="location"></p>
+
+
+    <p id="plantNameViewer"></p>
+
+    <script src="plant.js"></script>
+
+    <button onclick="display(1, 0)">Christians Plante</button>
+    <button onclick="display(2, 1)">Plant B</button>
+    <button onclick="display(3, 2)">Plant C</button>
+
+    <script src="wikiHandler.js"></script>
     <main>
     
     </main>
